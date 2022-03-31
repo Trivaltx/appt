@@ -1,4 +1,4 @@
-FROM ubuntu 18.04
+FROM ubuntu:18.04
 RUN echo "## atualizando repositorios..."
 RUN apt-get -qq update -y
 RUN echo "## instalando interface grafica..."
